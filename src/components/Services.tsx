@@ -15,7 +15,7 @@ const services = [
   },
   {
     name: "Back-end",
-    description: "Nodejs, Nestjs, Django, RestAPI",
+    description: "Nodejs, Nestjs, Django, RestAPI, Docker, Nginx",
     link: "Learn more",
   },
   {
