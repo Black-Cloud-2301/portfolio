@@ -30,19 +30,15 @@ export default function About({}: Props) {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a Freelance Front-end Developer with over 5 years of
-              experience.
+              I'm a Final-year student majoring in IT at Thang Long University
             </h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-              voluptatum, fugit atque aliquid unde sint optio cumque repellat
-              excepturi deleniti suscipit similique aspernatur eaque quaerat
-              voluptas recusandae saepe? Praesentium, molestias!
+              Started studying from 2019 up to now, have completed all subjects.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView && <CountUp start={0} end={13} duration={3} />}
+                  {inView && <CountUp start={0} end={0} duration={3} />}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br /> Experience
@@ -50,7 +46,7 @@ export default function About({}: Props) {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView && <CountUp start={0} end={15} duration={3} />}k+
+                  {inView && <CountUp start={0} end={0} duration={3} />}k+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects <br /> Completed
@@ -58,10 +54,10 @@ export default function About({}: Props) {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView && <CountUp start={0} end={12} duration={3} />}k+
+                  {inView && <CountUp start={0} end={29} duration={3} />}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Satisfied <br /> Clients
+                  Years <br /> Old
                 </div>
               </div>
             </div>

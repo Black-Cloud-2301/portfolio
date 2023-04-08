@@ -9,7 +9,8 @@ export default function Header({}: Props) {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <a href="">
-            <img src={Logo} alt="logo" />
+            {/* <img src={Logo} alt="logo" /> */}
+            <h2 className="text-gradient text-3xl">TÚ ANK</h2>
           </a>
           <button className="btn btn-sm">Work with me</button>
         </div>

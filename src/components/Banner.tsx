@@ -1,7 +1,8 @@
 import React from "react";
 
-import Image from "../assets/avatar.svg";
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+// import Image from "../assets/avatar.svg";
+import Image from "../assets/avatar.png";
+import { FaGithub, FaFacebook, FaDribbble } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -36,12 +37,12 @@ export default function Banner({}: Props) {
               <span className="mr-4">I am a</span>
               <TypeAnimation
                 sequence={[
-                  "Developer",
+                  "Frontend Developer",
                   2000,
-                  "Designer",
+                  "Backend Developer",
                   2000,
-                  "Youtuber",
-                  2000,
+                  // "Fullstack Developer",
+                  // 2000,
                 ]}
                 speed={50}
                 className="text-accent"
@@ -54,10 +55,9 @@ export default function Banner({}: Props) {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 font-primary"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Sapiente, impedit vel nam ducimus
+              Fullstack Developer & Data Engineer soon
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -67,7 +67,7 @@ export default function Banner({}: Props) {
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <button className="btn btn-lg">Contact me</button>
-              <a href="" className="text-gradient btn-link">
+              <a href="home" className="text-gradient btn-link">
                 My Portfolio
               </a>
             </motion.div>
@@ -78,10 +78,10 @@ export default function Banner({}: Props) {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="">
-                <FaYoutube />
+              <a href="https://www.facebook.com/tuprinceank" target="_blank">
+                <FaFacebook />
               </a>
-              <a href="">
+              <a href="https://github.com/Black-Cloud-2301" target="_blank">
                 <FaGithub />
               </a>
               <a href="">

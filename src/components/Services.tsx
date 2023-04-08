@@ -8,21 +8,19 @@ type Props = {};
 
 const services = [
   {
-    name: "UI/UX Design",
+    name: "Front-end",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, mollitia expedita! Nobis architecto incidunt debitis odit, laborum voluptatem eum reprehenderit!",
+      "HTML, CSS, Javascript, Reactjs, Nextjs, Tailwindcss, Mui, Redux",
     link: "Learn more",
   },
   {
-    name: "Digital Marketing",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, mollitia expedita! Nobis architecto incidunt debitis odit, laborum voluptatem eum reprehenderit!",
+    name: "Back-end",
+    description: "Nodejs, Nestjs, Django, RestAPI",
     link: "Learn more",
   },
   {
-    name: "Product Branding",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, mollitia expedita! Nobis architecto incidunt debitis odit, laborum voluptatem eum reprehenderit!",
+    name: "Database",
+    description: "MySql, Graphql, MongoDB",
     link: "Learn more",
   },
 ];
@@ -39,9 +37,10 @@ export default function Services({}: Props) {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
           >
-            <h2 className="h2 text-accent mb-6">What I Do.</h2>
+            <h2 className="h2 text-accent mb-6">What I Focus On.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm Freelance Front-end Developer with over 5 years of experience.
+              I started with front-end website but now I want to be a back-end
+              intern and aim to data engineer.
             </h3>
             <button className="btn btn-sm">See my work</button>
           </motion.div>
